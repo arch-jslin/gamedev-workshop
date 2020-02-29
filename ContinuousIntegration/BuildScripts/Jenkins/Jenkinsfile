@@ -1,8 +1,8 @@
 pipeline {
   agent any
   environment {
-    GIT = '"C:\\Program Files\\Git\\bin\\git.exe"'
-    UNITY = '"C:\\Program Files\\Unity\\Hub\\Editor\\2018.4.14f1\\Editor\\Unity.exe"'
+    GIT = '"C:\\Git\\bin\\git.exe"'
+    UNITY = '"C:\\Program Files\\Unity\\Hub\\Editor\\2019.3.0f6\\Editor\\Unity.exe"'
     PROJECT = 'ContinuousIntegration'
     PLATFORM = 'Win64'
     OUTPUT = 'Build/ContinuousIntegration.exe'
